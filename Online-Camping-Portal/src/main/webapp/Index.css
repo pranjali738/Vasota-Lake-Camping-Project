@@ -1,0 +1,127 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	color: #333;
+}
+
+.header {
+	background-image:
+		url(https://www.mountainphotography.com/images/xl/20120711-Cracker-Lake-Camp.jpg);
+	background-repeat: no-repeat;
+	color: rgb(0, 0, 0);
+	padding: 1rem;
+	text-align: center;
+	width: 100%;
+	background-size: cover;
+}
+
+.header ul {
+	list-style: none;
+	padding: 0;
+}
+
+.header ul li {
+	display: inline;
+	margin: 0 15px;
+}
+
+.header ul li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+li {
+	padding: 20px;
+	background-color: white;
+	height: 20px;
+	width: 25px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: rgb(153, 204, 248);
+}
+
+.header ul li a:hover {
+	color: white;
+}
+
+#holder {
+	width: 100%;
+	justify-content: space-around;
+}
+
+#heading {
+	font-size: 50px;
+}
+
+.section {
+	padding: 2rem;
+	text-align: center;
+}
+
+#second_heading {
+	font-size: 30px;
+	font-weight: bolder;
+	height: 50px;
+	padding-top: 20px;
+}
+
+.gallery {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.gallery img {
+	width: 300px;
+	border-radius: 8px;
+}
+
+.video-gallery video {
+	width: 80%;
+	margin: 20px auto;
+	display: block;
+}
+
+.footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	margin-top: 20px;
+}
+
+.banner {
+	border: 2px solid black;
+	height: 500px;
+	width: 100vw;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.content {
+	display: flex; /* Enables Flexbox */
+	align-items: center; /* Aligns items vertically */
+	max-width: 800px; /* Adjust width as needed */
+	margin: 50px auto;
+}
+
+.image {
+	width: 100%; /* Adjust image width */
+	height: 100; /* Maintain aspect ratio */
+	margin-right: 30px; /* Adds space between image and text */
+}
+
+.text {
+	width: 90%; /* Adjust text width */
+	font-size: 20px;
+}
+;
